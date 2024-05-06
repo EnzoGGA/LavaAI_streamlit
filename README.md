@@ -11,3 +11,4 @@ pip install -r requirements.txt
 ```
 python3 -m streamlit run ./main.py
 ```
+#### Remember to put your gemini's api key on /.streamlit/secrets.toml path.
