@@ -1,7 +1,7 @@
 {"commands": ["help", "?", "h", "ajuda", "menu", "home", "settings", "setting", "config", "configuracoes", "prefix", "name", "new", "load", "console", "cmd", "home", "exit", "quit"],
   "version": "1.0",
   "prefix": "/",
-  "name": "Gabriel",
+  "name": "",
   "name_b": "LAVA",
   "temperature": 0.5,
   "FA": true,
