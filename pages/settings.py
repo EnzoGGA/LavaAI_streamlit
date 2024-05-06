@@ -3,7 +3,7 @@ import time
 import streamlit as st
 import json
 
-with open('lib/data.json', 'r') as f:
+with open('main_data/data.json', 'r') as f:
     data = json.loads(f.read())
 
 version = data['version']

@@ -151,7 +151,7 @@ class ChatBot:
                     st.warning("Iniciando novo chat...")
                     time.sleep(0.5)
                     st.switch_page("pages/new_chat.py")
-                elif comando == "home":
+                elif comando in ["home", "exit", "quit"]:
                     st.session_state.default = None
                     st.rerun()
                 elif comando in ["console", "cmd"]:
